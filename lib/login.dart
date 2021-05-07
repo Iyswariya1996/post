@@ -48,7 +48,7 @@ class _LoginState extends State<Login> {
                           controller: emailController,
                           validator: (value){
                             if(value.isEmpty){
-                              return 'Email is not empty';
+                              return 'Email is not ';
                             }
                             return null;
                           },
